@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://ouxsv4v68ul7"]
 
 [ext_resource type="Texture2D" uid="uid://dir2pajulnxcn" path="res://graphics/player_ships/player_ship_basic.svg" id="1_4flbx"]
-[ext_resource type="Script" uid="uid://okioub41sr24" path="res://scenes/player.gd" id="1_g2els"]
+[ext_resource type="Script" uid="uid://okioub41sr24" path="res://scripts/player.gd" id="1_g2els"]
 [ext_resource type="Texture2D" uid="uid://febsx7bvvuyi" path="res://graphics/player_ships/ion_flame.svg" id="3_qhqgy"]
 
 [node name="player" type="CharacterBody2D"]

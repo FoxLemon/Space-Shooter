@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://cyqqgordmh7pa"]
 
-[ext_resource type="Script" uid="uid://brkwfl1v3w61x" path="res://scenes/meteor.gd" id="1_pxso2"]
+[ext_resource type="Script" uid="uid://brkwfl1v3w61x" path="res://scripts/meteor.gd" id="1_pxso2"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_83eji"]
 radius = 9.357113
