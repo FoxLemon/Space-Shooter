@@ -1,0 +1,79 @@
+[gd_scene load_steps=18 format=3 uid="uid://c0xdgv1yop50h"]
+
+[ext_resource type="Script" uid="uid://cwpby5brstlwp" path="res://scenes/star.gd" id="1_3qv0s"]
+[ext_resource type="Texture2D" uid="uid://ddg85kar63nau" path="res://graphics/backgrounds/stars/star1.svg" id="1_4nmqm"]
+[ext_resource type="Texture2D" uid="uid://c1wgmn0wcalmt" path="res://graphics/backgrounds/stars/star2.svg" id="2_3qv0s"]
+[ext_resource type="Texture2D" uid="uid://dyv003qk2kb68" path="res://graphics/backgrounds/stars/star3.svg" id="3_twfhd"]
+[ext_resource type="Texture2D" uid="uid://cghewcyuodcfw" path="res://graphics/backgrounds/stars/star4.svg" id="4_np3v5"]
+[ext_resource type="Texture2D" uid="uid://dxuso8h6s0x33" path="res://graphics/backgrounds/stars/star5.svg" id="5_jmoh7"]
+[ext_resource type="Texture2D" uid="uid://psab4ml36uru" path="res://graphics/backgrounds/stars/star6.svg" id="6_kmh0x"]
+[ext_resource type="Texture2D" uid="uid://dkawqp8d4alv5" path="res://graphics/backgrounds/stars/star7.svg" id="7_jttqs"]
+[ext_resource type="Texture2D" uid="uid://3pyk1l0k0lpq" path="res://graphics/backgrounds/stars/star8.svg" id="8_pybc0"]
+[ext_resource type="Texture2D" uid="uid://onbvo8tyo6y0" path="res://graphics/backgrounds/stars/star9.svg" id="9_omv2o"]
+[ext_resource type="Texture2D" uid="uid://b1fnn7sjcvlpq" path="res://graphics/backgrounds/stars/star10.svg" id="10_bmxhp"]
+[ext_resource type="Texture2D" uid="uid://bo4xq1ldryfjb" path="res://graphics/backgrounds/stars/star11.svg" id="11_2dxbk"]
+[ext_resource type="Texture2D" uid="uid://maskkl5q34cr" path="res://graphics/backgrounds/stars/star13.svg" id="12_us8tv"]
+[ext_resource type="Texture2D" uid="uid://qme7t62dta7s" path="res://graphics/backgrounds/stars/star14.svg" id="13_qfyo6"]
+[ext_resource type="Texture2D" uid="uid://beqdefmgyihjd" path="res://graphics/backgrounds/stars/star15.svg" id="14_y1yeg"]
+[ext_resource type="Texture2D" uid="uid://chd5av8p08p8x" path="res://graphics/backgrounds/stars/star16.svg" id="15_13ght"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_r6mim"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_4nmqm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_3qv0s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_twfhd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_np3v5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_jmoh7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_kmh0x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_jttqs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_pybc0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_omv2o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_bmxhp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_2dxbk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_us8tv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_qfyo6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_y1yeg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_13ght")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[node name="Star" type="Node2D"]
+script = ExtResource("1_3qv0s")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_r6mim")
+autoplay = "default"
+frame_progress = 0.53512996
