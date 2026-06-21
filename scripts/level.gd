@@ -1,7 +1,7 @@
 extends Node2D
 
 
-@export var star_amount = 100;
+@export var star_amount = 200
 
 # load the scene
 var meteor_scene : PackedScene = load("res://scenes/meteor.tscn")

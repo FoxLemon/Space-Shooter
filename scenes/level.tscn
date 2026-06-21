@@ -1,8 +1,9 @@
-[gd_scene load_steps=8 format=3 uid="uid://cbyp1xwa5d3e1"]
+[gd_scene load_steps=9 format=3 uid="uid://cbyp1xwa5d3e1"]
 
 [ext_resource type="PackedScene" uid="uid://ouxsv4v68ul7" path="res://scenes/player.tscn" id="1_2q6dc"]
 [ext_resource type="Script" uid="uid://df2po7qljpmrc" path="res://scripts/level.gd" id="1_mx8sn"]
 [ext_resource type="Texture2D" uid="uid://bhp6wegdp2uka" path="res://graphics/backgrounds/back_ground.svg" id="1_w8frs"]
+[ext_resource type="PackedScene" uid="uid://dn1vdyt00eyk8" path="res://scenes/ui.tscn" id="4_mx8sn"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_w8frs"]
 size = Vector2(174.5, 2359)
@@ -64,6 +65,8 @@ metadata/_edit_lock_ = true
 
 [node name="Player" parent="." instance=ExtResource("1_2q6dc")]
 position = Vector2(1444, 932)
+
+[node name="UI" parent="." instance=ExtResource("4_mx8sn")]
 
 [connection signal="timeout" from="MeteorTimer" to="." method="_on_meteor_timer_timeout"]
 [connection signal="laser" from="Player" to="." method="_on_player_laser"]
